@@ -1,0 +1,13 @@
+Inside react root folder (Client1 & Client2):
+npm install keycloak-js @react-keycloak/web
+npm start
+
+Inside python root folder (app-client-1 & app-client-2):
+python3 -m venv venv
+source venv/bin/activate
+pip install flask-cors flask python-jose requests
+python main.py
+
+/etc/hots
+127.0.0.1 app1.localhost
+127.0.0.1 app2.localhost
